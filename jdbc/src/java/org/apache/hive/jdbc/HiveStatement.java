@@ -736,7 +736,7 @@ public class HiveStatement implements java.sql.Statement {
 
   @Override
   public void setQueryTimeout(int seconds) throws SQLException {
-    throw new SQLException("Method not supported");
+    //throw new SQLException("Method not supported");
   }
 
   /*
